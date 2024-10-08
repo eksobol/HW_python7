@@ -1,8 +1,9 @@
-#добавляем файлы в архив
+# добавляем файлы в архив
 import pytest
 import os
 import zipfile
 from path_config import source_dir, target_archive
+
 
 @pytest.fixture(scope="session")
 def add_files_to_zip():
