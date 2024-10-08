@@ -1,4 +1,3 @@
-# добавляем файлы в архив
 import pytest
 import os
 import zipfile
